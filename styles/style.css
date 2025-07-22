@@ -1,0 +1,165 @@
+a {
+   text-decoration: none;
+}
+.page{
+    background-color: var(--background-color, #f3efec);
+    color:var( --main-color,#312A4E );
+    min-inline-size: 320px;
+}
+.title{
+    font-size: var(--font-size-title, clamp(3.75rem, 2.5rem + 5.5556vw, 7.5rem));
+    padding-inline:  clamp(1.125rem, 0rem + 5vw, 4.5rem);
+    padding-block-start: clamp(2.25rem, 0rem + 10vw, 9rem);
+    padding-block-end: 40px;
+    line-height: 90%;
+    text-align: center;
+    font-family: 'STIX Two Text';
+    font-weight: 600;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 33px;
+    padding-inline:  clamp(1.125rem, 0rem + 5vw, 4.5rem);
+    padding-block: 22px;
+    line-height: 104%;
+    border-bottom: var(--border, 1px solid var(--main-color,#312A4E));
+    border-top:  var(--border, 1px solid #312A4E);
+    font-family: 'Raleway';
+}
+.header__theme-menu_list{
+    display: flex;
+    gap: 20px;
+    font-size: var(--font-size-nav, 1.125rem);
+    line-height: 104%;
+}
+.header__theme-menu_item{
+    cursor: pointer;
+}
+.header__theme-menu_item:hover{
+    font-weight: 700;
+    border-bottom: var(--border-bottom, 1px solid var(--main-color,#312A4E));
+}
+.header__theme-menu_item_bold{
+    font-weight: bold;
+    position: relative;
+}
+.header__theme-menu_item_bold::before{
+    content: '';
+    position: absolute;
+    bottom:1px ;
+    width:70px;
+    height:6px;
+    background-color: #FFAB6B;
+    z-index: -1;
+}
+.article__list{
+    padding-inline: clamp(1.125rem, 0rem + 5vw, 4.5rem);
+    padding-block-start: clamp(1.4375rem, 0.0208rem + 6.2963vw, 5.6875rem);
+    padding-block-end:  clamp(2.25rem, 0rem + 10vw, 9rem);
+}
+.article_card_title{
+    font-size: var(--font-size-article_card_title, 1.875rem);
+    line-height: 90%;
+    text-align: center;
+    font-family: 'STIX Two Text';
+    margin-block-end: clamp(0.5rem, 0rem + 2.2222vw, 2rem);
+}
+.article_card{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin-block-start: 20px;
+}
+section.article__list > h2.article_card_title {
+   margin-block-end: clamp(0.5rem, -1.7708rem + 10.0926vw, 7.3125rem); 
+}
+.first-letter{
+    background-color: #FFAB6B;
+    line-height: 100%;
+    font-size: var(--font-size-article_first-letter, 1.875rem);
+    font-weight: 700;
+    padding: 3px;
+    margin-inline-end: 5px;
+}
+.article_paragraph, .article_quote,.accent_paragraph{
+    font-size: var(--font-size-article_paragraph, 1.125rem);
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+.card_images{
+    width: 100%;  
+}
+.image_subtitle{
+    text-align: center;
+    border-bottom: 1px solid var(--main-color,#312A4E);
+    padding-block-end: 40px;
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+.article_quote{
+    line-height: 200%;
+    font-style: Italic;
+}
+.accent_title{
+    font-size: var(--font-size-accent_title, 3.75rem);
+    font-weight: 600;
+    line-height: 90%;
+}
+.wrapper_accent{
+    border: var(--border, 1px solid var(--main-color,#312A4E));
+    padding-inline: 10px;
+    padding-block: clamp(3.625rem, -4.5rem + 36.1111vw, 28rem);
+    text-align: center;
+    margin-inline:10px ;
+    margin-block:40px ;
+    position: relative;
+}
+.article_card_list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-inline:15px ;
+    position: relative;
+    list-style: none;
+}
+.article_card_item {
+    position: relative; 
+    padding-left: 22px; 
+}
+.article_card_item::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:10px;
+    height:10px;
+    background-color: #FFAB6B;
+    transform: rotate(45deg);
+    transform-origin: left;
+}
+.article__link{
+    font-weight: 700;
+}
+.article__link:hover{
+    border-bottom: 2px solid var(--main-color,#312A4E);
+}
+.article__link:focus{
+   border: none;
+   outline: none;
+}
+.article__link:focus-visible{
+   border: 2px solid var(--main-color,#312A4E);
+}
+.footer{
+    font-family: 'Raleway';
+    border-top: var(--border, 1px solid var(--main-color,#312A4E));
+    text-align: center;
+    padding-block: 9px;
+}
+.footer_title{
+    font-size: var(--font-size-footer-title, 1.125rem);
+    line-height: 100%;
+}
+

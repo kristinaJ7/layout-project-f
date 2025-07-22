@@ -1,0 +1,17 @@
+@font-face{
+    font-display: swap;
+    font-family: 'STIX Two Text';
+    src: local('STIX Two Text')
+    url('./STIXTwoText-VariableFont_wght.ttf') ;
+    font-weight: 600;
+}
+@font-face{
+    font-display: swap;
+    font-family: 'Raleway';
+    src: local('Raleway')
+    url('./Raleway-VariableFont_wght.ttf'),
+    url('./Raleway-VariableFont_wght.ttf') ;
+    font-weight: 400 ;
+}
+
+

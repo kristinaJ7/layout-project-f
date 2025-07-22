@@ -1,0 +1,19 @@
+:root{
+    /*цвета сайта*/
+    --background-color: #f3efec;
+    --main-color:#312A4E ;
+/*размеры шрифта*/
+   --font-size-title: clamp(3.75rem, 2.5rem + 5.5556vw, 7.5rem) ;
+   --font-size-accent_title: 3.75rem;
+   --font-size-article_card_title: 1.875rem;
+   --font-size-article_first-letter: 1.875rem;
+   --font-size-article_paragraph: 1.125rem;
+   --font-size-footer-title: 1.125rem;
+   --font-size-nav: 1.125rem;
+   --first-letter-font-size:1.875rem;
+   /*граница*/
+    --border: 1px solid #312A4E;
+    --border-bottom: 1px solid #312A4E;
+    --wdth:700;
+}
+
