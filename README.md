@@ -17,3 +17,7 @@
 
 ## Примечания
 Проект создан исключительно для  обучения.
+
+git@github.com:kristinaJ7/layout-project-f.git
+https://github.com/kristinaJ7/layout-project-f.git
+https://kristinaj7.github.io/layout-project-f/
